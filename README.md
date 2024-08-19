@@ -24,7 +24,7 @@ TaintLess mitigates these issues:
 
 ```bash
 # add this repository as submodule inside your addon
-git submodule add --branch master https://github.com/pedrozc90/TaintLess ./libs/Taintless
+git submodule add --branch master https://github.com/lua-wow/TaintLess.git ./libs/Taintless
 
 # initialize submodule and download it
 git submodule init --update
